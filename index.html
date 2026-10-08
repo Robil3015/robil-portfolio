@@ -1,0 +1,237 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robil Chaudhary | Finance Student</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background: #f5f7fa;
+        }
+
+        nav {
+            background: #17365d;
+            padding: 18px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav h2 {
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            max-width: 750px;
+            margin: auto;
+        }
+
+        .section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 70px 20px;
+        }
+
+        .section h2 {
+            color: #17365d;
+            font-size: 32px;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .statement {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 20px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+        }
+
+        .project h3 {
+            color: #17365d;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            margin-bottom: 15px;
+        }
+
+        .status {
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        footer {
+            background: #17365d;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Robil Chaudhary</h2>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Robil Chaudhary</h1>
+        <p>Finance Student | Aspiring Financial Advisor</p>
+    </section>
+
+    <section class="section" id="about">
+        <h2>Personal Statement</h2>
+
+        <div class="statement">
+            I am a Finance student aspiring to become a financial advisor, with strong skills in Excel, communication, organization, and time management.
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <div class="skill">Microsoft Excel</div>
+            <div class="skill">Microsoft Word</div>
+            <div class="skill">Adobe</div>
+            <div class="skill">Communication</div>
+            <div class="skill">Time Management</div>
+            <div class="skill">Responsibility</div>
+            <div class="skill">Receiving Feedback</div>
+            <div class="skill">Organization</div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+                <h3>Student Exam Support Business Plan</h3>
+                <p>
+                    Developed a business plan for an idea designed to help students manage stress, stay organized, and prepare more effectively during exam season. The project involved identifying a student need, developing a business concept, and outlining how the idea could provide value to students.
+                </p>
+                <p class="status">Business Planning • Problem Solving</p>
+            </div>
+
+            <div class="project">
+                <h3>Beta Alpha Psi Organizational Improvement</h3>
+                <p>
+                    Currently working with Beta Alpha Psi to identify an organizational challenge and develop practical solutions to improve the club's operations. The goal is to streamline processes, improve communication, and help the organization run more efficiently.
+                </p>
+                <p class="status">In Progress • Problem Solving • Teamwork</p>
+            </div>
+
+            <div class="project">
+                <h3>Personal Budget & Financial Planning</h3>
+                <p>
+                    Developing a personal budgeting project focused on tracking income, expenses, savings, and financial goals. This project is designed to strengthen financial planning and analysis skills using Microsoft Excel.
+                </p>
+                <p class="status">In Progress • Financial Planning • Excel</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Robil Chaudhary | Finance Student</p>
+    </footer>
+
+</body>
+</html>
+```
